@@ -4,6 +4,9 @@
     export  * from './entities/todo.entity';
     export  * from './repository/todo.repository';
 
+    export * from './errors/custom.errors';
+
+
     export * from './use-cases/todo/create-todo';
     export * from './use-cases/todo/update-todo';
     export * from './use-cases/todo/delete-todo';
